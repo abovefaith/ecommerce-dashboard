@@ -1,0 +1,12 @@
+<p>students</p>
+
+
+<!-- src/app/students/students.component.html -->
+<div class="students">
+  <h1>Enrolled Students</h1>
+  <div *ngFor="let student of students">
+    <h2>{{ student.name }}</h2>
+    <p>{{ student.email }}</p>
+    <p>Course: {{ student.course }}</p>
+  </div>
+</div>

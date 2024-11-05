@@ -1,0 +1,13 @@
+<p>courses</p>
+
+<!-- src/app/courses/courses.component.html -->
+<div class="courses">
+  <h1>Courses</h1>
+  <button (click)="createCourse()">Create Course</button>
+  <div *ngFor="let course of courses">
+    <h2>{{ course.name }}</h2>
+    <p>{{ course.description }}</p>
+    <button (click)="editCourse(course.id)">Edit</button>
+    <button (click)="deleteCourse(course.id)">Delete</button>
+  </div>
+</div>

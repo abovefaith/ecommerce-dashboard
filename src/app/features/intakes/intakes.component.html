@@ -1,0 +1,13 @@
+<p>intakes</p>
+
+<!-- src/app/intakes/intakes.component.html -->
+<div class="intakes">
+  <h1>Course Intakes</h1>
+  <button (click)="createIntake()">Create Intake</button>
+  <div *ngFor="let intake of intakes">
+    <h2>{{ intake.courseName }} - {{ intake.startDate }}</h2>
+    <p>Capacity: {{ intake.capacity }}</p>
+    <button (click)="editIntake(intake.id)">Edit</button>
+    <button (click)="deleteIntake(intake.id)">Delete</button>
+  </div>
+</div>
