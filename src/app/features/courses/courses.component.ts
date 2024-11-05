@@ -34,9 +34,9 @@ export class CoursesComponent implements OnInit {
     // Logic for editing a course
   }
 
-  deleteCourse(id: number) {
-    this.courseService.deleteCourse(id).subscribe(() => {
-      this.loadCourses();
-    });
-  }
+  // deleteCourse(id: number) {
+  //   this.courseService.deleteCourse(id).subscribe(() => {
+  //     this.loadCourses();
+  //   });
+  // }
 }

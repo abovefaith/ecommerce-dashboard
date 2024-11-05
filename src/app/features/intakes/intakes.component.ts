@@ -32,9 +32,9 @@ export class IntakesComponent implements OnInit {
     // Logic for editing an intake
   }
 
-  deleteIntake(id: number) {
-    this.intakeService.deleteCourseIntake(id).subscribe(() => {
-      this.loadIntakes();
-    });
-  }
+  // deleteIntake(id: number) {
+  //   this.intakeService.deleteCourseIntake(id).subscribe(() => {
+  //     this.loadIntakes();
+  //   });
+  // }
 }

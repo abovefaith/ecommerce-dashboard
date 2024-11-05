@@ -1,7 +1,21 @@
 <!-- src/app/app.component.html -->
-<nav>
+<!-- <nav>
   <a routerLink="/courses">Courses</a>
   <a routerLink="/intakes">Intakes</a>
   <a routerLink="/students">Students</a>
 </nav>
-<router-outlet></router-outlet>
+<router-outlet></router-outlet> -->
+
+<div class="container">
+  <div class="header">
+    <app-header></app-header>
+  </div>
+  <div class="main-container">
+    <div class="side-nav">
+      <app-side-nav></app-side-nav>
+    </div>
+    <div class="main">
+      <app-main></app-main>
+    </div>
+  </div>
+</div>
