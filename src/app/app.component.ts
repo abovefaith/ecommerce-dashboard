@@ -13,5 +13,5 @@ import { MainComponent } from './features/dashboard/components/main/main.compone
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'learning-app';
+  title = 'ecommerce-dashboard';
 }
